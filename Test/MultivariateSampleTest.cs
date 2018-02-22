@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Meta.Numerics.Functions;
 using Meta.Numerics.Statistics;
@@ -7,6 +6,9 @@ using Meta.Numerics.Statistics.Distributions;
 using Meta.Numerics.Matrices;
 
 namespace Test {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using TestResult = Meta.Numerics.Statistics.TestResult;
 
     [TestClass]
     public class MultivariateSampleTest {

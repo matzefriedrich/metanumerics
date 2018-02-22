@@ -1,5 +1,4 @@
 ﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Collections;
 
@@ -9,7 +8,10 @@ using Meta.Numerics.Statistics;
 using Meta.Numerics.Statistics.Distributions;
 
 namespace Test {
-    
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using TestResult = Meta.Numerics.Statistics.TestResult;
+
     [TestClass]
     public class SampleTest {
 

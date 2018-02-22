@@ -57,7 +57,7 @@ namespace Test {
             UncertainValue r = e0.OddsRatio;
             Assert.IsTrue(r.ConfidenceInterval(0.95).ClosedContains(1.0));
 
-            TestResult f = e0.FisherExactTest();
+            Meta.Numerics.Statistics.TestResult f = e0.FisherExactTest();
             Assert.IsTrue(f.RightProbability < 0.95, f.RightProbability.ToString());
 
         }
@@ -84,10 +84,10 @@ namespace Test {
             UncertainValue r = e1.OddsRatio;
             Assert.IsFalse(r.ConfidenceInterval(0.95).ClosedContains(1.0));
 
-            TestResult p = e1.PearsonChiSquaredTest();
+            Meta.Numerics.Statistics.TestResult p = e1.PearsonChiSquaredTest();
             Assert.IsTrue(p.LeftProbability > 0.95, p.RightProbability.ToString());
 
-            TestResult f = e1.FisherExactTest();
+            Meta.Numerics.Statistics.TestResult f = e1.FisherExactTest();
             Assert.IsTrue(f.RightProbability > 0.95);
 
         }

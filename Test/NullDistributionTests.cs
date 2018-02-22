@@ -2,13 +2,15 @@
 using System.Text;
 using System.Collections.Generic;
 using System.Linq;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Meta.Numerics.Functions;
 using Meta.Numerics.Statistics;
 using Meta.Numerics.Statistics.Distributions;
 
 namespace Test {
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using TestResult = Meta.Numerics.Statistics.TestResult;
 
     [TestClass]
     public class NullDistributionTests {

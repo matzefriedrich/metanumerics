@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Diagnostics;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Meta.Numerics;
 using Meta.Numerics.Matrices;
@@ -11,8 +10,11 @@ using Meta.Numerics.Statistics.Distributions;
 // add T and KS tests against other samples
 
 namespace Test {
-    
-    
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using TestResult = Meta.Numerics.Statistics.TestResult;
+
+
     /// <summary>
     ///This is a test class for DataSetTest and is intended
     ///to contain all DataSetTest Unit Tests

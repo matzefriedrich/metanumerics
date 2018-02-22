@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 using Meta.Numerics;
 using Meta.Numerics.Analysis;
@@ -11,7 +10,10 @@ using Meta.Numerics.Statistics.Distributions;
 using Meta.Numerics.Matrices;
 
 namespace Test {
-    
+    using Microsoft.VisualStudio.TestTools.UnitTesting;
+
+    using TestResult = Meta.Numerics.Statistics.TestResult;
+
     [TestClass]
     public class DistributionTest {
 

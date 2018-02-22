@@ -1,18 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.14
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{91B917CA-01FF-422B-96F0-2A2D610575DD}"
-	ProjectSection(SolutionItems) = preProject
-		.editorconfig = .editorconfig
-		localtestrun.testrunconfig = localtestrun.testrunconfig
-		Numerics1.vsmdi = Numerics1.vsmdi
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Numerics", "Numerics\Numerics.csproj", "{9BA28047-CD12-429E-9B60-3418AF7AD939}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{7D0311C9-EEA3-4DCF-AC9E-25A20B0901F6}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Numerics", "Numerics\Numerics.csproj", "{C93BE2CF-4153-4230-8CD4-D0F6C5018121}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{0263FAEF-4509-429F-8C62-EDBADD468A5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,17 +13,20 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7D0311C9-EEA3-4DCF-AC9E-25A20B0901F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D0311C9-EEA3-4DCF-AC9E-25A20B0901F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D0311C9-EEA3-4DCF-AC9E-25A20B0901F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D0311C9-EEA3-4DCF-AC9E-25A20B0901F6}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C93BE2CF-4153-4230-8CD4-D0F6C5018121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C93BE2CF-4153-4230-8CD4-D0F6C5018121}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C93BE2CF-4153-4230-8CD4-D0F6C5018121}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C93BE2CF-4153-4230-8CD4-D0F6C5018121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA28047-CD12-429E-9B60-3418AF7AD939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA28047-CD12-429E-9B60-3418AF7AD939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA28047-CD12-429E-9B60-3418AF7AD939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA28047-CD12-429E-9B60-3418AF7AD939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0263FAEF-4509-429F-8C62-EDBADD468A5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0263FAEF-4509-429F-8C62-EDBADD468A5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0263FAEF-4509-429F-8C62-EDBADD468A5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0263FAEF-4509-429F-8C62-EDBADD468A5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {66762318-2217-4CC6-BAC2-5562E110C1E1}
 	EndGlobalSection
 	GlobalSection(TestCaseManagementSettings) = postSolution
 		CategoryFile = Numerics1.vsmdi

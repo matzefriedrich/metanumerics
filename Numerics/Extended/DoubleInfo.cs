@@ -207,7 +207,6 @@ namespace Meta.Numerics.Extended {
         /// <summary>
         /// Gets the internal representation of the floating point value.
         /// </summary>
-        [CLSCompliant(false)]
         public ulong Bits {
             get {
                 return (storage);
